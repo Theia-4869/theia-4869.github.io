@@ -62,7 +62,7 @@ ul, ol, dl {
 
 /* Navigation bar text */
 .navbar-default {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', SimHei, sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
@@ -70,7 +70,7 @@ ul, ol, dl {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', KaiTi, sans-serif;
   font-weight: 400;
   margin-bottom: .5rem;
   line-height: 1.25;
@@ -328,6 +328,12 @@ ul.ul-edu li .description p.course {
 }
 
 ul.ul-edu li .description p.institution {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
+
+ul.ul-edu li .description p.institution-cn {
+  font-family: SimHei;
   font-size: 0.75rem;
   color: rgba(0,0,0,0.6);
 }
@@ -747,6 +753,11 @@ footer {
 footer p {
   font-size: 0.75rem;
   text-align: center;
+}
+
+.powered-by {
+  font-family: Georgia, KaiTi, sans-serif;
+  font-size: 0.85rem;
 }
 
 .site-footer,
