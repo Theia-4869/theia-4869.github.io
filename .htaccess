@@ -1,8 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^(www.)?chinese.xxx.com$
-RewriteCond %{REQUEST_URI} !^/cn/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /cn/$1
-RewriteCond %{HTTP_HOST} ^(www.)?chinese.xxx.com$
-RewriteRule ^(/)?$ cn/index.html [L]
